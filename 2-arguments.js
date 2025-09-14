@@ -1,7 +1,7 @@
 const myArguments = (...myArgs) => {
     let numArgs = myArgs.length;
     if (myArgs.length === 0) {
-        console.log('No arguments found');
+        console.log('No arguments');
     }
     else if (myArgs.length === 1) {
         console.log('Argument found');
