@@ -10,4 +10,4 @@ const myArguments = (...myArgs) => {
         console.log('Arguments found');
     }
 };
-myArguments(1, 2);
+myArguments(1);
