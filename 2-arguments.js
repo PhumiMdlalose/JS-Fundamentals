@@ -1,10 +1,13 @@
- const numArgs = process.argv.length-2;
-    if (numArgs === 0) {
-        console.log('No argument');
+const myArguments = (...myArgs) => {
+    let numArgs = myArgs.length;
+    if (myArgs.length === 0) {
+        console.log('No arguments found');
     }
-    else if (numArgs === 1) {
+    else if (myArgs.length === 1) {
         console.log('Argument found');
     }
     else {
         console.log('Arguments found');
     }
+};
+myArguments();
