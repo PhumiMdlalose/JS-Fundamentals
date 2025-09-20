@@ -1,12 +1,6 @@
-const myArgument = (...myArgs) => {
-    if (myArgs[0] === undefined){
-        console.log('No argument');
-    }
-    else {
-        console.log(myArgs[0]);
-    }
-    
+const myArgs = process.argv;
+if (myArgs[2] === undefined)
+    console.log('No argument');
+else{
+    console.log(myArgs[2]);
 }
-
-myArgument();
-myArgument('School');
