@@ -1,6 +1,4 @@
-function argConcat (arg_1, arg_2){
-    console.log(arg_1 + ' is ' + arg_2);
+const twoArgs = process.argv.slice(2);
+{
+    console.log(twoArgs[0] + ' is ' + twoArgs[1]);
 }
-//argConcat('Python', 'fun'); 
-//argConcat('HBTN');
-argConcat();
